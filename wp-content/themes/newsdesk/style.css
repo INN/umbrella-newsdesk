@@ -1,0 +1,20 @@
+/*
+Theme Name:     NewsDesk
+Theme URI:      http://largoproject.org
+Description:    Child theme for Newsdesk.org built with Project Largo from the Investigative News Network.
+Author:         Adam Schweigert/INN
+Author URI:     http://adamschweigert.com
+Template:       largo
+Version:        0.1.0
+*/
+#main-nav.navbar {
+  border: none;
+}
+#main-nav.navbar .navbar-inner {
+  background: #4a657c;
+}
+#main-nav.navbar .nav > li > a { color: white; }
+#main-nav.navbar .nav > li > a:hover { color: #383838; }
+
+#main-nav .dropdown .caret:before { border-top: 6px solid white; }
+#main-nav .dropdown > a:hover .caret:before { border-top: 6px solid #383838; }
